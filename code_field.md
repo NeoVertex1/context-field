@@ -12,7 +12,8 @@ Creates a cognitive environment for code generation where edge cases surface nat
 - Any code that will be read by others
 
 ---
-
+read the full article [here](https://github.com/NeoVertex1/context-field/blob/main/code_field_article.md)
+---
 ## Full Prompt
 
 ```
