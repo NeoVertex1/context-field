@@ -1,6 +1,6 @@
 {
   "name": "context-fields",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Composable cognitive constraints that reshape how Claude thinks. 13 fields for different cognitive modes: /code, /interview, /critic, /debug, /creative, and more.",
   "author": {
     "name": "NeoVertex1"
@@ -13,5 +13,6 @@
     "cognitive-constraints",
     "inhibition-prompting",
     "composable-prompts"
-  ]
+  ],
+  "hooks": "./hooks/hooks.json"
 }
