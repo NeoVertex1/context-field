@@ -1,21 +1,21 @@
 {
-  "name": "context-fields-marketplace",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "context-fields",
+  "version": "1.0.0",
+  "description": "Composable cognitive constraints that reshape how Claude thinks through inhibition-based prompting",
   "owner": {
     "name": "NeoVertex1"
-  },
-  "metadata": {
-    "description": "Context Fields: Composable cognitive constraints for Claude. 13 fields that reshape how Claude thinks through inhibition-based prompting."
   },
   "plugins": [
     {
       "name": "context-fields",
-      "source": ".",
-      "description": "13 composable cognitive constraints: /code, /interview, /critic, /debug, /creative, /simplify, /empathy, /concise, /planning, /scope, /teacher, /steelman, /adversarial",
+      "description": "13 composable cognitive fields: /code, /interview, /critic, /debug, /creative, /simplify, /empathy, /concise, /planning, /scope, /teacher, /steelman, /adversarial",
       "version": "1.0.0",
       "author": {
         "name": "NeoVertex1"
       },
-      "repository": "https://github.com/NeoVertex1/context-field"
+      "source": "./plugins/context-fields",
+      "category": "productivity"
     }
   ]
 }

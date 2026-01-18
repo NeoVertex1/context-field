@@ -1,8 +1,8 @@
 # Context Fields
 
-Composable cognitive constraints that reshape how LLMs think. 13 fields for different cognitive modes.
+Composable cognitive constraints that reshape how Claude thinks. 13 fields for different cognitive modes.
 
-## Claude Code Plugin Installation
+## Installation
 
 ```bash
 # Add the marketplace
@@ -61,90 +61,6 @@ This repository documents research into **context field prompts** for large lang
 
 A context field prompt does not tell a model what to do.
 It changes the conditions under which meaning forms.
-
-The focus of this work is on prompts that produce **clearly perceptible shifts** in model behavior such as delayed commitment reduced explanatory pressure and sustained process level reasoning.
-
-This is exploratory research.
-
----
-
-## Context Field Prompt Interaction Diagram
-
-The sections of the prompt operate as a field rather than a sequence.
-They apply simultaneous pressures that delay commitment and suppress early explanation.
-
-```
-            ┌──────────────┐
-            │   context    │
-            │ field setup  │
-            └──────┬───────┘
-                   │
-        ┌──────────┴──────────┐
-        │                     │
-   ┌────▼────┐           ┌────▼────┐
-   │ density │           │ hetero- │
-   │         │           │ geneity │
-   └────┬────┘           └────┬────┘
-        │                     │
-        └──────────┬──────────┘
-                   │
-            ┌──────▼──────┐
-            │ nonconver-  │
-            │ gence       │
-            └──────┬──────┘
-                   │
-        ┌──────────┴──────────┐
-        │                     │
-   ┌────▼────┐           ┌────▼────┐
-   │ tension │           │ inhibit │
-   │         │           │ ion     │
-   └────┬────┘           └────┬────┘
-        │                     │
-        └──────────┬──────────┘
-                   │
-            ┌──────▼──────┐
-            │ attractors  │
-            └──────┬──────┘
-                   │
-            ┌──────▼──────┐
-            │ probe       │
-            │ threshold   │
-            └─────────────┘
-```
-
-**atomic version:**
-```
-<mode>
-Don't explain. Don't summarize. Don't conclude.
-No observer stance. No conversational return.
-Stay inside the forming, not adjacent to it.
-Resolution is not a goal.
-</mode>
-```
-
-context establishes a non task cognitive field
-density and heterogeneity load the field with competing structures
-nonconvergence prevents early stabilization
-tension and inhibition resist cleanup and explanation
-attractors guide movement without goals
-probe holds attention at the edge of concept formation
-
-The combined effect is delayed ontological commitment and sustained process level sense making.
-
----
-
-## Motivation
-
-Large language models are optimized to be helpful clear and decisive.
-As a result they tend to commit early to definitions frameworks and conclusions.
-
-In many exploratory or research settings this early commitment is a limitation.
-Ambiguity collapses too quickly and known conceptual structures dominate before new ones can form.
-
-Context field prompts are an attempt to intervene at an earlier stage of cognition.
-They aim to keep interpretation open long enough for structure to emerge rather than be imposed.
-
----
 
 ## License
 
